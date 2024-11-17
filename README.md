@@ -40,7 +40,7 @@ json
 Copy code
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=GoodGovernanceDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Server=mssql;Database=GoodGovernanceDB;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }
 4. Run Database Migrations
@@ -57,8 +57,12 @@ bash
 Copy code
 dotnet build
 dotnet run
-The API will run on https://localhost:5001 or http://localhost:5000.
-
+The API will run on [https://localhost:5001](http://localhost:5271/swagger/index.html)
+![Screenshot 2024-11-17 220541](https://github.com/user-attachments/assets/a1516e04-13b7-41be-bedd-50a00ea2d523)
+![Screenshot 2024-11-17 220358](https://github.com/user-attachments/assets/4c064092-fd06-4ad6-8a0b-d62ca99235d3)
+![Screenshot 2024-11-17 220417](https://github.com/user-attachments/assets/38b2edbe-43d4-41d0-b3ba-4b32bfbf79fd)
+![Screenshot 2024-11-17 220525](https://github.com/user-attachments/assets/8355001d-6e39-4a36-aca5-26ac9aaa33e7)
+![Screenshot 2024-11-17 220541](https://github.com/user-attachments/assets/50a4643e-37fb-4ba0-8016-6cab3bd574d9)
 API Endpoints
 Citizen Endpoints
 Method	Endpoint	Description
